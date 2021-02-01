@@ -1,0 +1,52 @@
+#include <SPI.h>
+#include <nRF24L01.h>
+#include <RF24.h>
+boolean lecture;
+int i;
+char cde;
+char tabcde[20];
+
+RF24 radio(7, 8);
+
+const byte rxAddr[6] = "00001";
+
+void setup()
+{
+  //while (!Serial);
+  Serial.begin(9600);
+
+  radio.begin();
+  radio.openReadingPipe(0, rxAddr);
+
+  radio.startListening();
+}
+
+void loop()
+{
+  lecture = true;
+  i = 1;
+  while (lecture == true)
+  {
+    if (radio.available())
+    {
+      radio.read(&cde,sizeof(cde));
+    }
+    if (cde = 'z')
+    {
+      lecture = false;
+    }
+    else
+    {
+      tabcde[i] = cde;
+      i = i + 1;
+    }
+  }
+  /*
+     if (radio.available())
+  {
+  char text[32] = {0};
+  radio.read(&text, sizeof(text));
+  Serial.println(text);
+  }
+  */
+}

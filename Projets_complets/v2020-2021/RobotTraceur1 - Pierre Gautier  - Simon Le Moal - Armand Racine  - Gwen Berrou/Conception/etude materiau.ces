@@ -1,0 +1,839 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>5ce8e6cc-c96d-4f31-8a7b-85bc1bc3f9c2</ID>
+  <Version>5</Version>
+  <Name />
+  <Author>locadm</Author>
+  <Company>Lycée Eugène Livet</Company>
+  <Notes />
+  <Template>Univers des Matériaux\Polymères.cet</Template>
+  <PassNA>false</PassNA>
+  <FailEstimatedRecords>false</FailEstimatedRecords>
+  <ResultType>0</ResultType>
+  <ResultStage>-1</ResultStage>
+  <RankByType>0</RankByType>
+  <RankByStage>-1</RankByStage>
+  <RankByProperty />
+  <IndexRankColumn>0</IndexRankColumn>
+  <RankOrder>1</RankOrder>
+  <Database>
+    <Path>C:\Program Files (x86)\CES EduPack 2018\Database\French Level 2\data.gdb</Path>
+    <Name>Niveau 2</Name>
+    <Unit>Metric</Unit>
+    <UnitType>Relative</UnitType>
+    <Currency>EUR</Currency>
+    <SelectionTable>Univers des Matériaux</SelectionTable>
+    <Tables>
+      <Table>
+        <TableName>Univers des Matériaux</TableName>
+        <SubsetName>Polymères</SubsetName>
+        <LayoutName>Toutes propriétés</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels>
+          <RecordCustomLabels>
+            <GRUID>EDU04-9751</GRUID>
+            <Text>Ionomère (I)</Text>
+          </RecordCustomLabels>
+          <RecordCustomLabels>
+            <GRUID>EDU04-13539</GRUID>
+            <Text>Polymères cellulosiques (CA)</Text>
+          </RecordCustomLabels>
+        </RecordCustomLabels>
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Univers des Procédés</TableName>
+        <SubsetName>Tous les Procédés</SubsetName>
+        <LayoutName>Tous les Procédés</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Références</TableName>
+        <SubsetName>Références Matériaux</SubsetName>
+        <LayoutName>Tous les détails</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+      <Table>
+        <TableName>Producteurs</TableName>
+        <SubsetName>Producteurs</SubsetName>
+        <LayoutName>Producteurs</LayoutName>
+        <CompareTable>
+          <Windowplacement />
+          <ZOrder>-1</ZOrder>
+          <ShowProjectData>false</ShowProjectData>
+          <ShowRanges>true</ShowRanges>
+          <ShowValues>true</ShowValues>
+          <PercentError>10</PercentError>
+        </CompareTable>
+        <UserDefinedNearnessSettings />
+        <Favourites />
+        <CompareRecords />
+        <RecordCustomLabels />
+        <UserRecords />
+      </Table>
+    </Tables>
+    <ParameterValues>
+      <ParameterValue>
+        <Name>Temperature</Name>
+        <Value>23</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Taille du Groupe</Name>
+        <Value>1000</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Temps pour Amortir le capital</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Longueur du Composant</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Poids du Composant</Name>
+        <Value>1</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Taux de Remise</Name>
+        <Value>5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Facteur de Charge</Name>
+        <Value>0.5</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Coût du Materiau</Name>
+        <Value>6.76639986038208</Value>
+      </ParameterValue>
+      <ParameterValue>
+        <Name>Coût d'opération par heure</Name>
+        <Value>126.8699951171875</Value>
+      </ParameterValue>
+    </ParameterValues>
+  </Database>
+  <Stages>
+    <Stage xsi:type="TreeStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-8,-31,78,78,1316,708</Windowplacement>
+      <ZOrder>2</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <Expression>[Univers des Procédés:\Mise en forme\Moulage\Moulage de thermoplastiques\Moulage par injection]</Expression>
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,66,1522,916</Windowplacement>
+      <ZOrder>6</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>true</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Masse Volumique (kg/m^3)</Name>
+        <FunctionObjective />
+        <Expression>[Masse Volumique]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>742.64877977254139</Low>
+        <High>2636.5087418573503</High>
+      </xAxis>
+      <yAxis>
+        <Name>Prix (EUR/kg)</Name>
+        <FunctionObjective />
+        <Expression>[Prix]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>0.65270343098787</Low>
+        <High>130.47051305750608</High>
+      </yAxis>
+      <Selections />
+      <Labels>
+        <Label>
+          <Text>Polypropylène (PP)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>988.37546918099633</XPos>
+          <YPos>1.7684700391912784</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7267</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Chlorure de polyvinyle (tpPVC)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>1678.4981656486102</XPos>
+          <YPos>2.1264304964632443</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-9820</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polystyrène (PS)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>1150.2682436880418</XPos>
+          <YPos>1.6744730235201868</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7268</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Ionomère (I)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>931.98480885784647</XPos>
+          <YPos>6.559442620449528</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-9751</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polymères cellulosiques (CA)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>1171.6442918314592</XPos>
+          <YPos>8.2169394446475774</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-13539</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Acrylonitrile butadiène styrène (ABS)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>1419.6766083115251</XPos>
+          <YPos>3.7990186407744435</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7256</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polyéthylène (PE)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>997.9543599519568</XPos>
+          <YPos>0.86353231821322762</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-9775</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+      </Labels>
+      <Curves />
+      <ShowEnvelopes>false</ShowEnvelopes>
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,66,1222,591</Windowplacement>
+      <ZOrder>5</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>true</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Résistance en traction (MPa)</Name>
+        <FunctionObjective />
+        <Expression>[Résistance en traction]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>10.033378371270791</Low>
+        <High>263.12174247901169</High>
+      </xAxis>
+      <yAxis>
+        <Name>Prix (EUR/kg)</Name>
+        <FunctionObjective />
+        <Expression>[Prix]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>0.65270343098787</Low>
+        <High>130.47051305750608</High>
+      </yAxis>
+      <Selections />
+      <Labels>
+        <Label>
+          <Text>Polyéthylène (PE)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>25.930188527621223</XPos>
+          <YPos>1.7927824592367267</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-9775</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polymères cellulosiques (CA)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>38.167567797040917</XPos>
+          <YPos>7.36666607103911</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-13539</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Acrylonitrile butadiène styrène (ABS)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>51.906302100296614</XPos>
+          <YPos>13.995090507823008</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7256</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Ionomère (I)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>26.703559250229848</XPos>
+          <YPos>7.31654486345836</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-9751</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polypropylène (PP)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>34.63194087708716</XPos>
+          <YPos>1.7444873266155911</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7267</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polystyrène (PS)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>45.837483302137265</XPos>
+          <YPos>1.7684700391912784</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7268</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Chlorure de polyvinyle (tpPVC)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>90.111606671717567</XPos>
+          <YPos>1.3006942805939035</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-9820</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polyéthylène téréphtalate (PET ou PETE)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>94.706647471265072</XPos>
+          <YPos>1.7091216949915111</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7262</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polylactone (PLA)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>76.575652711551768</XPos>
+          <YPos>3.9849789523194845</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU06-6139</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polymères cellulosiques (CA)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>67.0137866028488</XPos>
+          <YPos>6.1685408082903912</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-13539</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Acrylonitrile butadiène styrène (ABS)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>34.300994172576772</XPos>
+          <YPos>2.5394503947620146</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7256</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+      </Labels>
+      <Curves />
+      <ShowEnvelopes>false</ShowEnvelopes>
+      <OnTop>
+        <Record>EDU04-13539</Record>
+      </OnTop>
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-8,-31,156,156,1394,786</Windowplacement>
+      <ZOrder>-1</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>false</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Module de Young (GPa)</Name>
+        <FunctionObjective />
+        <Expression>[Module de Young]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>0.10506111405478975</Low>
+        <High>9.51826966521274</High>
+      </xAxis>
+      <yAxis>
+        <Name>Prix (EUR/kg)</Name>
+        <FunctionObjective />
+        <Expression>[Prix]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>0.65270343098787</Low>
+        <High>130.47051305750608</High>
+      </yAxis>
+      <Selections />
+      <Labels />
+      <Curves />
+      <ShowEnvelopes>false</ShowEnvelopes>
+    </Stage>
+    <Stage xsi:type="BubbleStageMemento">
+      <Name />
+      <Notes />
+      <Windowplacement>0,1,-1,-1,-1,-1,0,66,1222,591</Windowplacement>
+      <ZOrder>3</ZOrder>
+      <SelectWholeRecords>false</SelectWholeRecords>
+      <Enabled>true</Enabled>
+      <PassNA>false</PassNA>
+      <HideFailedRecords>true</HideFailedRecords>
+      <ResultIntersection>true</ResultIntersection>
+      <ShowFavourites>false</ShowFavourites>
+      <ShowVirtualRecords>false</ShowVirtualRecords>
+      <ShowUserRecords>false</ShowUserRecords>
+      <ShowReferenceMaterial>false</ShowReferenceMaterial>
+      <FailEstimates>false</FailEstimates>
+      <xAxis>
+        <Name>Résistance en traction (MPa)</Name>
+        <FunctionObjective />
+        <Expression>[Résistance en traction]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>10.033378371270791</Low>
+        <High>263.12174247901169</High>
+      </xAxis>
+      <yAxis>
+        <Name>Résistance à la compression (MPa)</Name>
+        <FunctionObjective />
+        <Expression>[Résistance à la compression]</Expression>
+        <ExpressionType>1</ExpressionType>
+        <AbsoluteValues>true</AbsoluteValues>
+        <LogAxis>true</LogAxis>
+        <Low>6.967241927119554</Low>
+        <High>171.04429966075466</High>
+      </yAxis>
+      <Selections />
+      <Labels>
+        <Label>
+          <Text>Ionomère (I)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>48.502699717675505</XPos>
+          <YPos>14.518175499050445</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-9751</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polyamides (Nylons, PA)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>144.53671143631527</XPos>
+          <YPos>40.212659483179564</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7260</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polyéthylène (PE)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>53.939981180474</XPos>
+          <YPos>22.948071091609279</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-9775</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polypropylène (PP)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>67.165455485189028</XPos>
+          <YPos>27.972322034536997</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7267</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polymères cellulosiques (CA)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>94.49278677057606</XPos>
+          <YPos>39.391843270966255</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-13539</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polystyrène (PS)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>85.739511151232023</XPos>
+          <YPos>49.422843251953623</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7268</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Polyuréthane (tpPUR)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>79.575872273898952</XPos>
+          <YPos>59.013798054172824</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-9805</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Acrylonitrile butadiène styrène (ABS)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>31.852975866405036</XPos>
+          <YPos>140.90213408793866</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-7256</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+        <Label>
+          <Text>Ionomère (I)</Text>
+          <TextColor>#FF000000</TextColor>
+          <Border>false</Border>
+          <BorderColor>#FF000000</BorderColor>
+          <Fill>true</Fill>
+          <FillColor>#FFffffff</FillColor>
+          <RoundedCorners>false</RoundedCorners>
+          <FaceName>Arial</FaceName>
+          <PointSize>100</PointSize>
+          <Italic>false</Italic>
+          <Weight>400</Weight>
+          <XPos>16.129705289806406</XPos>
+          <YPos>41.7334687859743</YPos>
+          <InitialXPos>0</InitialXPos>
+          <InitialYPos>0</InitialYPos>
+          <RecordGruid>EDU04-9751</RecordGruid>
+          <Bar xsi:nil="true" />
+        </Label>
+      </Labels>
+      <Curves />
+      <ShowEnvelopes>false</ShowEnvelopes>
+    </Stage>
+  </Stages>
+</Project>

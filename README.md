@@ -2,26 +2,19 @@ RobotBlocs
 ===================
 tangible programmation of drawing robot, by kids for kids.
 
-[Click to launch video:](https://mediacad.ac-nantes.fr/m/2332)
+[Click here to launch video: https://mediacad.ac-nantes.fr/m/2332](https://mediacad.ac-nantes.fr/m/2332)
 ![](https://raw.githubusercontent.com/technologiescollege/RobotBlocs/master/vignette.jpg)
 
 
 **==>**[**Animation à ouvrir.**](https://github.com/technologiescollege/RobotBlocs/blob/master/principe.swf?raw=true)
 
-Creators / créateurs
+Designers & developpers
 ----------
-Programmation par les élèves de SIN du LYCEE EUGENE LIVET / programmers :
+Chaque version du projet, chaque année, chaque groupe et chaque organisation a été différente.
+Vous trouverez les noms des élèves, quand ils ont bien voulu qu'on les laisse, dans les dossiers (électronique ou Modeles_3D\Solidworks) de chaque année.
 
- - DENIER Hugo, 
- - LETOUZIC Sullivan,
- - NICOLAS Pierre,
- - POREE Martin.
-
-Création des blocs et réalisation par les élèves de ITEC du LYCEE EUGENE LIVET / mechanical engineering :
-
- - AOUADI Haïthem,
- - GAUTIER Théo,
- - VIEILLET Malo.
+Each version of the project, each year, each group and each organisation has been different.
+You will find the names of the students, when they were willing to be left, in the folders (electronic or Modeles_3D\Solidworks) of each year.
 
 Explanation/explication
 ----------

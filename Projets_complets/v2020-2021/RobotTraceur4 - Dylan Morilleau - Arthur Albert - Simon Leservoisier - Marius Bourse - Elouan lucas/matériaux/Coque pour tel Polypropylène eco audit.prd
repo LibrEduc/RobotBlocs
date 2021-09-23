@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+    <Component>
+      <Name>Coque</Name>
+      <MaterialGRUID>EDU04-7267</MaterialGRUID>
+      <MaterialIdentity>89</MaterialIdentity>
+      <ProcessName>Polymer molding</ProcessName>
+      <SecondaryProcessName />
+      <GradeName>Virgin</GradeName>
+      <EolName>Recycle</EolName>
+      <Mass>0.0387</Mass>
+      <Length>0</Length>
+      <RemovedPercentage>0</RemovedPercentage>
+      <RecoveryRatio>100</RecoveryRatio>
+      <Quantity>10000</Quantity>
+      <RecycledPercentage>0</RecycledPercentage>
+    </Component>
+  </Components>
+  <Transports>
+    <Transport>
+      <Name>Coque</Name>
+      <Type>14 tonne truck</Type>
+      <Distance>25</Distance>
+    </Transport>
+  </Transports>
+  <Processes />
+  <DbName>Niveau 2</DbName>
+  <Name>Coque pour tel</Name>
+  <IncludeCostAnalysis>false</IncludeCostAnalysis>
+  <Width>0</Width>
+  <Height>0</Height>
+  <Depth>0</Depth>
+  <CountryOfProduction>World</CountryOfProduction>
+  <CountryOfUse>France</CountryOfUse>
+  <FuelRate>Domestic</FuelRate>
+  <UseRecycleFraction>false</UseRecycleFraction>
+  <IsPowered>false</IsPowered>
+  <IsMobile>false</IsMobile>
+  <MobileTransportType>Diesel - ocean shipping</MobileTransportType>
+  <StaticFuelType>Electric to thermal</StaticFuelType>
+  <StaticUsageHoursPerDay>0</StaticUsageHoursPerDay>
+  <StaticUsageDaysPerYear>0</StaticUsageDaysPerYear>
+  <StaticPowerUnitSymbol>GW</StaticPowerUnitSymbol>
+  <StaticPowerRating>0</StaticPowerRating>
+  <MobileDistanceKmPerDay>0</MobileDistanceKmPerDay>
+  <MobileUsageDaysPerYear>0</MobileUsageDaysPerYear>
+  <ProductLife>2</ProductLife>
+  <HeaderStates>
+    <ProductHeaderExpanded>true</ProductHeaderExpanded>
+    <MateriaHeaderExpanded>true</MateriaHeaderExpanded>
+    <TransportHeaderExpanded>true</TransportHeaderExpanded>
+    <UseHeaderExpanded>true</UseHeaderExpanded>
+    <ReportHeaderExpanded>true</ReportHeaderExpanded>
+  </HeaderStates>
+</Product>
